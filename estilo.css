@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+
+body {
+  background: url("img/corazon-1.svg") repeat-y top left, url("img/corazon-2.svg") repeat-y top right;
+  background-color: hsl(343, 100%, 96%);
+  background-size: 150px;
+  font-family: sans-serif;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+div {
+  border: black 2px solid;
+  margin: 10px 150px;
+  font-weight: bold;
+}
+
+div.foto1 {
+  background: url("img/manchas.png");
+  color: white;
+}
+
+div.foto2 {
+  background: url("img/fuego.svg") no-repeat bottom right, url("img/fuego.svg") no-repeat bottom left, url("img/tallos.jpg");
+  color: hsl(52, 100%, 50%);
+}
+
+div.foto3 {
+  background:  url("img/ojo.svg") no-repeat center, url("img/hexagonos.jpg");
+  background-size: contain, auto;
+  color: hsl(0, 100%, 25%);
+}
+
+div.foto4 {
+  padding-bottom: 50px;
+  background: url("img/caballo.svg") repeat-x bottom, url("img/estrellas.png") repeat;
+  background-size: 100px, auto;
+  color: hsl(125, 100%, 15%);
+}
