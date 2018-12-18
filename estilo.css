@@ -3,9 +3,9 @@
 
 body {
   background: url("img/corazon-1.svg") repeat-y top left, url("img/corazon-2.svg") repeat-y top right;
-  background-color: hsl(343, 100%, 96%);
+  background-color: hsl(343, 20%, 47%);
   background-size: 150px;
-  font-family: sans-serif;
+  font-family:cursive;
   font-size: 1.25rem;
   text-align: center;
 }
@@ -17,7 +17,7 @@ h1 {
 
 div {
   border: black 2px solid;
-  margin: 10px 150px;
+  margin: 20px 180px;
   font-weight: bold;
 }
 
@@ -28,18 +28,18 @@ div.foto1 {
 
 div.foto2 {
   background: url("img/fuego.svg") no-repeat bottom right, url("img/fuego.svg") no-repeat bottom left, url("img/tallos.jpg");
-  color: hsl(52, 100%, 50%);
+  color: hsl(52, 76%, 46%);
 }
 
 div.foto3 {
   background:  url("img/ojo.svg") no-repeat center, url("img/hexagonos.jpg");
   background-size: contain, auto;
-  color: hsl(0, 100%, 25%);
+  color: hsl(0, 73%, 36%);
 }
 
 div.foto4 {
   padding-bottom: 50px;
   background: url("img/caballo.svg") repeat-x bottom, url("img/estrellas.png") repeat;
   background-size: 100px, auto;
-  color: hsl(125, 100%, 15%);
+  color: hsl(125, 81%, 25%);
 }
